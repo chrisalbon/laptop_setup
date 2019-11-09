@@ -1,0 +1,26 @@
+# Useful aliases
+
+# Show Bash Profile
+alias b='cat ~/.bash_profile'
+
+# Github
+
+# GP
+export GP='XXXXXX'
+
+# Print GP
+alias gp='echo $GP'
+
+# Notes Project
+
+# Go to Notes folder
+alias n='cd /Users/chrisalbon/dropbox/cra/projects/notes'
+
+# Go to Notes folder and open Jupyter Notebook
+alias jn='cd /Users/chrisalbon/dropbox/cra/projects/notes && jupyter notebook'
+
+# Launch in Hugo server of Notes site
+alias hs='cd /Users/chrisalbon/dropbox/cra/projects/notes && hugo server'
+
+# Publish a new note
+alias nn='cd /Users/chrisalbon/dropbox/cra/projects/notes && git pull && hugo && git add -A && git commit -m "made changes" && gp && git push'
